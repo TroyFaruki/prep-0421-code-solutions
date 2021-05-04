@@ -1,0 +1,15 @@
+var person = { firstName: 'Takumi', lastName: 'Fujiwara', Hobby: 'Drifto', job: 'drifto', previousJob: 'tofu' };
+console.log(person);
+console.log("The person's name is: ");
+var fullName = person.firstName + ' ' + person.lastName;
+console.log(fullName);
+console.log("The person's job is:  ", person.job = 'drifto');
+console.log("The person's previous job is: ", person.previousJob = 'tofu');
+console.log('The person object: ');
+console.log(person);
+var myCar = { make: 'Toyota AE86', model: 'Toyota Sprinter Trueno 3Door GT-APEX version Zenki', year: '1983', owner: fullName, color: 'Panda - White and Black' };
+console.log('Car information: ');
+console.log(myCar);
+console.log('My name is ' + fullName + ' and I drive a ' + myCar.year + ' ' + myCar.make + ' ' + myCar.model);
+console.log('My full car info is: ');
+console.log(myCar);
